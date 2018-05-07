@@ -20,7 +20,7 @@ class String
   end
 
   def count_sentences
-"one. two. three?".split('/.|?/')
+"one. two. three?".split(/.|?/)
 
   end
 end
