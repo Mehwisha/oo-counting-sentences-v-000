@@ -20,7 +20,7 @@ class String
   end
 
   def count_sentences
-s = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
+s = "one. two. three?"
 sentence = s.split(/\.(?=[\w])/)
 sentence.count
 
