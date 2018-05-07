@@ -3,7 +3,9 @@ require 'pry'
 class String
 
   def sentence?
-    
+
+  ("Hi, my name is Sophie.").end_with?(".").self
+              
   end
 
   def question?
