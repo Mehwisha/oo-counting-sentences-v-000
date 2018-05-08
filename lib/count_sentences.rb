@@ -24,6 +24,6 @@ if s = "one. two. three?".split(/(?<!')\.(?!')/)
 s.count()
 elsif s = " ".split(/^\s*$/)
   s.count()
-  
+end
   end
 end
