@@ -20,7 +20,10 @@ class String
   end
 
   def count_sentences
- s = "one. two. three?".split(/(?<!')\.(?!')/)
+if s = "one. two. three?".split(/(?<!')\.(?!')/)
 s.count()
+elsif s = " ".split(/^\s*$/)
+  s.count()
+  
   end
 end
