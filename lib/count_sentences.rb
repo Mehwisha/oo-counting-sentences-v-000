@@ -20,8 +20,8 @@ class String
   end
 
   def count_sentences
-s = "one. two. three?".split(/(?<!')\.(?!')/)
-s.count()
+
+self.squeeze(".?!").split(/[.?!]/).length
 
   end
 end
